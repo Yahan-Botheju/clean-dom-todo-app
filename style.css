@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	user-select: none;
+	font-family: 'Barlow';
+}
+
+body {
+	line-height: 1.7;
+	padding: 10px;
+	background: #f3f3f3;
+}
+
+.item-container .items {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.items .item {
+	margin: 5px;
+}
+
+.incompleteState {
+	border: 2px solid rgb(131, 129, 129);
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	margin: 5px;
+}
+.progressState {
+	border: 2px solid #1c639c;
+	padding: 10px;
+	border-radius: 5px;
+	background: #68c3f5;
+	margin: 5px;
+}
+
+.completeState {
+	border: 2px solid #01c96a;
+	padding: 10px;
+	border-radius: 5px;
+	background: #9bf7da;
+	margin: 5px;
+	text-decoration: line-through;
+	text-decoration-thickness: 2px;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	cursor: pointer;
+}
+
+.container .inputItem {
+	font-family: 'Barlow';
+	padding: 10px 20px;
+	width: 20%;
+	margin: 10px;
+	border-radius: 5px;
+	border: none;
+	background: #fff;
+	border: 2px solid #e4e3e3;
+}
+
+.container #btnAdd {
+	padding: 7px 35px;
+	font-family: 'Barlow';
+	font-weight: 600;
+	border: 2px solid #8d8c8c;
+	background: #f0f6f8;
+	border-radius: 5px;
+}
+#btnAdd:hover {
+	background: #fff;
+	color: #494949;
+	border: 2px solid #131212;
+}
+/* 
+.message{
+  border: 1px solid black;
+  max-width: 30vh;
+  height: 20vh;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 3;
+} */
+
+.heading {
+	margin: 10px;
+	font-weight: 300;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+@media (max-width: 600px) {
+	.container .inputItem {
+		font-family: 'Barlow';
+		padding: 10px 20px;
+		width: 95%;
+		margin: 10px;
+		border-radius: 5px;
+		border: none;
+		background: #fff;
+		border: 2px solid #e4e3e3;
+	}
+
+	.container #btnAdd {
+		padding: 7px 35px;
+		font-family: 'Barlow';
+		font-weight: 600;
+		border: 2px solid #8d8c8c;
+		background: #f0f6f8;
+		border-radius: 5px;
+		margin: 20px 10px;
+		width: 95%;
+	}
+
+	#btnAdd:hover {
+		background: #fff;
+		color: #494949;
+		border: 2px solid #131212;
+	}
+
+	.item-container .items {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1382px) {
+	.container .inputItem {
+		font-family: 'Barlow';
+		padding: 10px 20px;
+		width: 20%;
+		margin: 10px;
+		border-radius: 5px;
+		border: none;
+		background: #fff;
+		border: 2px solid #e4e3e3;
+	}
+}
