@@ -1,9 +1,5 @@
 # 📝 To-Do List App
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/todo-app?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/your-username/todo-app?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/todo-app?style=social)
-![GitHub license](https://img.shields.io/github/license/your-username/todo-app)
 
 A lightweight and interactive To-Do List application built using **Vanilla JavaScript**, demonstrating clean DOM manipulation techniques and persistent state management using `localStorage`.
 
@@ -122,7 +118,7 @@ Developed as a practice project to improve:
 - DOM manipulation
 - Event handling
 - Local storage usage
-- Chaining Elements
+- Method Chaining  
 
 ---
 
