@@ -95,22 +95,6 @@ project/
 
 ---
 
-## ▶️ Getting Started
-
-### 1. Clone the Repository
-
-git clone https://github.com/your-username/todo-app.git
-
-### 2. Navigate to the Project Folder
-
-cd todo-app
-
-### 3. Open in Browser
-
-Open `index.html` in your preferred browser.
-
----
-
 ## 👨‍💻 Author
 
 Developed as a practice project to improve:
