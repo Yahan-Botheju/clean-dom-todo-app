@@ -87,11 +87,13 @@ Tasks are stored in the browser using `localStorage`.
 
 ## 📂 Project Structure
 
+```
 project/
 │
 ├── index.html
 ├── style.css
 └── script.js
+```
 
 ---
 
